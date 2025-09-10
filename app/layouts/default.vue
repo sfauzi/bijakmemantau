@@ -196,6 +196,162 @@
             </div>
         </section>
 
+        <section class="max-w-6xl mx-auto px-6 py-8">
+            <!-- Judul -->
+            <div class="mb-4">
+                <h2 class="text-2xl font-bold text-gray-900">Pantau Janji</h2>
+                <p class="text-gray-500 text-sm">8 kelompok janji pilihan Bijak Memantau</p>
+            </div>
+
+            <!-- Tabs kategori -->
+            <div class="flex gap-2 mb-6 overflow-x-auto whitespace-nowrap ">
+                <button
+                    class="px-4 py-2 rounded-full border border-gray-200 text-sm text-gray-700"
+                >Pendidikan</button>
+                <button
+                    class="px-4 py-2 rounded-full border border-gray-200 text-sm text-gray-700"
+                >Kesehatan</button>
+                <button
+                    class="px-4 py-2 rounded-full border border-gray-200 text-sm text-gray-700"
+                >Ekonomi</button>
+                <button
+                    class="px-4 py-2 rounded-full border border-gray-200 text-sm text-gray-700"
+                >Infrastruktur</button>
+                <button
+                    class="px-4 py-2 rounded-full border border-gray-200 text-sm text-gray-700"
+                >Penegakan Hukum</button>
+                <button
+                    class="px-4 py-2 rounded-full border border-gray-200 text-sm text-gray-700"
+                >Lingkungan</button>
+                <button
+                    class="px-4 py-2 rounded-full bg-blue-light text-blue-donker font-bold text-sm"
+                >Gender & Inklusi</button>
+                <button
+                    class="px-4 py-2 rounded-full border border-gray-200 text-sm text-gray-700"
+                >Olahraga & Ekonomi Kreatif</button>
+            </div>
+
+            <!-- Card list scroll horizontal -->
+            <div class="flex gap-4 overflow-x-auto pb-4 scrollbar-hide">
+                <!-- Card 1 -->
+                <div
+                    class="flex-shrink-0 w-[290px] h-auto relative rounded-xl overflow-hidden flex flex-col"
+                >
+                    <!-- Background image -->
+                    <img
+                        src="/c1.avif"
+                        alt="bg"
+                        class="absolute inset-0 w-full h-full object-cover"
+                    />
+
+                    <!-- Overlay biar teks kontras -->
+                    <div class="absolute inset-0 bg-black/50"></div>
+
+                    <!-- Konten -->
+                    <div class="relative z-10 p-4 flex flex-col flex-1 text-white">
+                        <!-- Judul -->
+                        <h3
+                            class="font-bold line-clamp-2 flex-1"
+                        >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum, harum. </h3>
+
+                        <!-- Button (selalu di bawah, width sesuai konten) -->
+                        <div class="mt-8">
+                            <button
+                                class="bg-white text-gray-800 px-4 py-2 rounded-full text-sm font-semibold mt-auto self-start"
+                            >Baca sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div
+                    class="flex-shrink-0 w-[290px] h-auto relative rounded-xl overflow-hidden flex flex-col"
+                >
+                    <!-- Background image -->
+                    <img
+                        src="/c2.avif"
+                        alt="bg"
+                        class="absolute inset-0 w-full h-full object-cover"
+                    />
+
+                    <!-- Overlay biar teks kontras -->
+                    <div class="absolute inset-0 bg-black/50"></div>
+
+                    <!-- Konten -->
+                    <div class="relative z-10 p-4 flex flex-col flex-1 text-white">
+                        <!-- Judul -->
+                        <h3
+                            class="font-bold line-clamp-2 flex-1"
+                        >Bangun infrastruktur dan perluas layanan...</h3>
+
+                        <!-- Button (selalu di bawah, width sesuai konten) -->
+                        <div class="mt-8">
+                            <button
+                                class="bg-white text-gray-800 px-4 py-2 rounded-full text-sm font-semibold mt-auto self-start"
+                            >Baca sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div
+                    class="flex-shrink-0 w-[290px] h-auto relative rounded-xl overflow-hidden flex flex-col"
+                >
+                    <!-- Background image -->
+                    <img
+                        src="/c3.avif"
+                        alt="bg"
+                        class="absolute inset-0 w-full h-full object-cover"
+                    />
+
+                    <!-- Overlay biar teks kontras -->
+                    <div class="absolute inset-0 bg-black/50"></div>
+
+                    <!-- Konten -->
+                    <div class="relative z-10 p-4 flex flex-col flex-1 text-white">
+                        <!-- Judul -->
+                        <h3
+                            class="font-bold line-clamp-2 flex-1"
+                        >Bangun infrastruktur dan perluas layanan...</h3>
+
+                        <!-- Button (selalu di bawah, width sesuai konten) -->
+                        <div class="mt-8">
+                            <button
+                                class="bg-white text-gray-800 px-4 py-2 rounded-full text-sm font-semibold mt-auto self-start"
+                            >Baca sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div
+                    class="flex-shrink-0 w-[290px] h-auto relative rounded-xl overflow-hidden flex flex-col"
+                >
+                    <!-- Background image -->
+                    <img
+                        src="/c4.avif"
+                        alt="bg"
+                        class="absolute inset-0 w-full h-full object-cover"
+                    />
+
+                    <!-- Overlay biar teks kontras -->
+                    <div class="absolute inset-0 bg-black/50"></div>
+
+                    <!-- Konten -->
+                    <div class="relative z-10 p-4 flex flex-col flex-1 text-white">
+                        <!-- Judul -->
+                        <h3
+                            class="font-bold line-clamp-2 flex-1"
+                        >Bangun infrastruktur dan perluas layanan...</h3>
+
+                        <!-- Button (selalu di bawah, width sesuai konten) -->
+                        <div class="mt-8">
+                            <button
+                                class="bg-white text-gray-800 px-4 py-2 rounded-full text-sm font-semibold mt-auto self-start"
+                            >Baca sekarang</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <slot />
     </div>
 </template>

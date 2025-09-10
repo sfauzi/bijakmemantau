@@ -6,7 +6,8 @@ export default {
       colors: {
         'blue-donker': '#131378',
         'ungu': '#30309f',
-        'abu': '#383632'
+        'abu': '#383632',
+        'blue-light': '#e3e8fa',
       },
     },
     fontFamily: {
