@@ -5,8 +5,9 @@
 <template>
     <div>
         <BaseNavigation />
-        <!-- bg-[#f5f7fb] -->
-        <section class="relative bg-[#f5f7fb] overflow-hidden py-10 px-20">
+
+        <!-- Hero Desktop -->
+        <section class="relative bg-[#f5f7fb] overflow-hidden py-10 px-20 hidden md:flex">
             <!-- Background image as pseudo-element -->
             <div
                 class="absolute inset-0 z-0"
@@ -135,6 +136,62 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hero Mobile -->
+        <section class="relative bg-blue-donker text-center lg:hidden">
+            <!-- Bagian atas background -->
+            <div
+                class="relative bg-blue-donker h-[150px] px-4 pt-4 flex justify-end items-start overflow-hidden"
+            >
+                <!-- Background map layer -->
+                <div
+                    class="absolute inset-0 z-0"
+                    style="background-image: url('/hero.svg'); background-size: cover; background-position: center; opacity: 0.3;"
+                ></div>
+
+                <!-- Icon info (kanan atas) -->
+                <!-- <div
+                    class="relative z-10 w-8 h-8 flex items-center justify-center rounded-full bg-white text-blue-donker"
+                >
+                    <Icon name="mdi:information-outline" class="w-5 h-5" />
+                </div>-->
+
+                <!-- Logo floating (di tengah batas putih & donker) -->
+                <img
+                    src="/logo.svg"
+                    alt="Logo"
+                    class="absolute left-1/2 bottom-[25px] bg-white rounded-full px-3 transform -translate-x-1/2 z-20 h-12"
+                />
+            </div>
+
+            <!-- Box putih -->
+            <div class="relative -mt-12 bg-white rounded-t-[50px] px-6 py-4">
+                <!-- Angka & Teks -->
+                <div class="flex flex-col items-center space-y-2">
+                    <div class="flex items-start gap-4">
+                        <!-- Angka besar -->
+                        <span class="font-Rubik text-[45px] mt-4 font-extrabold text-abu">52%</span>
+
+                        <!-- Teks di samping angka -->
+                        <div class="mt-5">
+                            <span
+                                class="block text-[20px] font-Rubik font-extrabold text-abu"
+                            >Warga adalah</span>
+                            <span
+                                class="font-Mansalva block text-[22px] font-extrabold text-blue-donker"
+                            >Orang muda</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Subtitle -->
+                <div
+                    class="mt-2 inline-flex items-center gap-2 px-4 py-3 bg-[#f5f7fb] rounded-xl text-sm font-semibold text-gray-700"
+                >
+                    <Icon name="mdi:paw" class="w-5 h-5 text-blue-donker" />Partisipasi kita nentuin kualitas pemerintah
                 </div>
             </div>
         </section>
