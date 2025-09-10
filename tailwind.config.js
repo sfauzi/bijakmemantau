@@ -4,13 +4,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        'blue-donker': '#252591',
+        'blue-donker': '#131378',
         'ungu': '#30309f',
-        'dire-wolf': '#292727'
+        'abu': '#383632'
       },
     },
     fontFamily: {
-      Manrope: "Manrope, sans-serif"
+      Manrope: "Manrope, sans-serif",
+      Mansalva: "Mansalva, sans-serif",
+      Rubik: "Rubik, sans-serif",
     },
 
   },

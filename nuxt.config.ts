@@ -10,7 +10,9 @@ export default defineNuxtConfig({
   ],
   googleFonts: {
     families: {
-      Manrope: true
+      Manrope: true,
+      Mansalva: true,
+      Rubik: true,
     },
   },
 })
