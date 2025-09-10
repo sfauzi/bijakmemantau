@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        'dodgeroll-gold': '#f79f1a',
-        'apple-green': '#046e1b',
+        'blue-donker': '#252591',
+        'ungu': '#30309f',
         'dire-wolf': '#292727'
       },
     },
