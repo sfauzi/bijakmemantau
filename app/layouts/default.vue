@@ -422,7 +422,48 @@ const cards = [
         </section>
 
         <!-- Section Participation Mobile -->
+        <section class="relative lg:hidden">
+            <!-- Gradient Header -->
+            <div
+                class="mb-4 bg-gradient-to-b from-blue-donker to-indigo-600 rounded-b-[30px] pt-10 pb-32 flex flex-col justify-center items-center text-center relative z-0"
+            >
+                <h2 class="text-white text-xl font-bold flex flex-col items-center">
+                    Gimana caranya mulai
+                    <span
+                        class="font-Rubik mt-3 bg-gradient-to-r from-blue-light to-white text-blue-donker font-extrabold px-3 py-2 rounded-xl shadow-[4px_6px_0px_0px_rgba(0,0,0,0.25)] inline-block transform -rotate-2 ml-1.5"
+                    >berpartisipasi?</span>
+                </h2>
+            </div>
 
+            <!-- Image overlap (paling atas) -->
+            <div class="absolute top-44 left-1/2 -translate-x-1/2 z-20 scale-125">
+                <img src="/c6.avif" alt="Ilustrasi diskusi" class="h-auto" />
+            </div>
+
+            <!-- Content Cards -->
+            <div class="bg-white relative z-10 mt-10 p-6">
+                <div class="overflow-x-auto">
+                    <div class="flex gap-4 pb-4 mb-4">
+                        <!-- Card Item -->
+                        <div
+                            v-for="(item, index) in cards"
+                            :key="index"
+                            class="flex-shrink-0 w-[350px] bg-blue-light/50 rounded-xl shadow-md p-4"
+                        >
+                            <div class="flex items-center gap-2 mb-3">
+                                <span v-html="item.icon" class="text-blue-600 text-md"></span>
+                                <h3 class="text-md font-semibold">{{ item.title }}</h3>
+                            </div>
+                            <p class="text-gray-600 mb-4 text-sm">{{ item.desc }}</p>
+                            <a
+                                :href="item.link"
+                                class="text-blue-donker text-xs font-bold hover:underline"
+                            >{{ item.cta }}</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <slot />
     </div>
 </template>
