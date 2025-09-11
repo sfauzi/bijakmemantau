@@ -96,7 +96,7 @@ function formatTitle(title: string) {
 </script>
 
 <template>
-    <section class="flex min-h-screen mb-8">
+    <section class="flex min-h-screen mb-8 hidden md:flex">
         <!-- Sidebar -->
         <aside class="w-[280px] flex justify-start p-6 space-y-4 sticky top-0 h-screen">
             <nav class="space-y-4">
