@@ -62,7 +62,7 @@
         </nav>
         <!-- Bottom Nav (mobile only) -->
         <nav
-            class="fixed bottom-0 left-0 right-0 bg-white border-t shadow-md flex justify-around items-center py-2 md:hidden z-50"
+            class="fixed bottom-0 left-0 right-0 bg-white border-t shadow-md flex justify-around items-center py-2 lg:hidden z-50"
         >
             <NuxtLink
                 to="/"
