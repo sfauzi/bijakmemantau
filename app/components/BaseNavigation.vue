@@ -20,7 +20,7 @@
 
             <!-- Menu Navigasi (center) -->
             <ul
-                class="hidden md:flex font-semibold text-neutral-900/50 flex gap-6 text-gray-600 text-sm font-medium items-center ml-auto"
+                class="hidden xl:flex font-semibold text-neutral-900/50 flex gap-6 text-gray-600 text-sm font-medium items-center ml-auto"
             >
                 <li>
                     <NuxtLink to="/pantau-janji" class="flex items-center gap-1 hover:text-black">

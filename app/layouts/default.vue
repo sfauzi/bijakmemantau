@@ -31,7 +31,7 @@ const cards = [
         <BaseNavigation />
 
         <!-- Hero Desktop -->
-        <section class="relative bg-[#f5f7fb] overflow-hidden py-10 px-20 hidden md:flex">
+        <section class="relative bg-[#f5f7fb] overflow-hidden py-10 px-20 hidden xl:flex">
             <!-- Background image as pseudo-element -->
             <div
                 class="absolute inset-0 z-0"
@@ -516,7 +516,7 @@ const cards = [
         </section>
 
         <!-- Section Participation Mobile -->
-        <section class="relative lg:hidden">
+        <section class="relative md:hidden">
             <!-- Gradient Header -->
             <div
                 class="mb-4 bg-gradient-to-b from-blue-donker to-indigo-600 rounded-b-[30px] pt-10 pb-32 flex flex-col justify-center items-center text-center relative z-0"
