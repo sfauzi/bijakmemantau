@@ -710,6 +710,8 @@ const cards = [
                 
             </div>
         </section>
+
+        <BaseFooter />
         <slot />
     </div>
 </template>
