@@ -1,5 +1,29 @@
 <script lang="ts" setup>
 
+const cards = [
+    {
+        icon: "📢",
+        title: "Bersuara di media sosial",
+        desc: "Kamu bisa mulai dengan memanfaatkan media sosial sebagai ruang untuk menyuarakan isu-isu yang kamu pedulikan.",
+        cta: "Ikut campaign Bijak →",
+        link: "#"
+    },
+    {
+        icon: "✊",
+        title: "Ikut aksi & protes damai",
+        desc: "Kamu bisa mulai dengan turun ke jalan dan ikut serta dalam aksi damai untuk menyuarakan sikapmu terhadap isu.",
+        cta: "Cari info terupdate →",
+        link: "#"
+    },
+    {
+        icon: "💬",
+        title: "Sampaikan aspirasi",
+        desc: "Kamu bisa mulai dengan menyampaikan pendapatmu atau bergabung dengan komunitas di Discord.",
+        cta: "Join Discord Bijak →",
+        link: "#"
+    }
+]
+
 </script>
 
 <template>
@@ -196,15 +220,16 @@
             </div>
         </section>
 
+        <!-- Section Category -->
         <section class="max-w-6xl mx-auto px-6 py-8">
             <!-- Judul -->
             <div class="mb-4">
-                <h2 class="text-2xl font-bold text-gray-900">Pantau Janji</h2>
+                <h2 class="text-xl font-bold text-abu">Pantau Janji</h2>
                 <p class="text-gray-500 text-sm">8 kelompok janji pilihan Bijak Memantau</p>
             </div>
 
             <!-- Tabs kategori -->
-            <div class="flex gap-2 mb-6 overflow-x-auto whitespace-nowrap ">
+            <div class="flex gap-2 mb-6 overflow-x-auto whitespace-nowrap">
                 <button
                     class="px-4 py-2 rounded-full border border-gray-200 text-sm text-gray-700"
                 >Pendidikan</button>
@@ -252,7 +277,7 @@
                         <!-- Judul -->
                         <h3
                             class="font-bold line-clamp-2 flex-1"
-                        >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum, harum. </h3>
+                        >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum, harum.</h3>
 
                         <!-- Button (selalu di bawah, width sesuai konten) -->
                         <div class="mt-8">
@@ -351,6 +376,52 @@
                 </div>
             </div>
         </section>
+
+        <!-- Section Participation Desktop -->
+        <section class="max-w-6xl mx-auto px-6 py-4 relative mt-5 hidden md:flex">
+            <div
+                class="bg-gradient-to-r from-blue-donker to-indigo-700 max-h-[300px] p-8 rounded-[30px] relative overflow-hidden"
+            >
+                <!-- Heading -->
+                <div class="mb-8 text-center md:text-right mr-[270px]">
+                    <h2 class="text-white text-xl md:text-1xl font-bold">
+                        Gimana caranya mulai
+                        <span
+                            class="font-Rubik bg-gradient-to-r from-blue-light to-white text-blue-donker font-extrabold px-3 py-2 rounded-xl shadow-[4px_6px_0px_0px_rgba(0,0,0,0.25)] inline-block transform -rotate-3 ml-1.5"
+                        >berpartisipasi?</span>
+                    </h2>
+                </div>
+
+                <!-- Image Card Left (absolute bawah kiri) -->
+                <div class="hidden md:block absolute -bottom-[70px] -left-10 z-0">
+                    <img src="/c5.avif" alt="Ilustrasi diskusi" class="w-auto h-[300px]" />
+                </div>
+
+                <!-- Scrollable Cards (di atas image) -->
+                <div class="relative z-10 overflow-x-auto ml-[400px]">
+                    <div class="flex gap-4 pb-4 mb-4">
+                        <!-- Card Item -->
+                        <div
+                            v-for="(item, index) in cards"
+                            :key="index"
+                            class="flex-shrink-0 w-[350px] bg-white rounded-xl shadow-md p-4"
+                        >
+                            <div class="flex items-center gap-2 mb-3">
+                                <span v-html="item.icon" class="text-blue-600 text-md"></span>
+                                <h3 class="text-md font-semibold">{{ item.title }}</h3>
+                            </div>
+                            <p class="text-gray-600 mb-4 text-sm">{{ item.desc }}</p>
+                            <a
+                                :href="item.link"
+                                class="text-blue-donker text-xs font-bold hover:underline"
+                            >{{ item.cta }}</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Participation Mobile -->
 
         <slot />
     </div>
