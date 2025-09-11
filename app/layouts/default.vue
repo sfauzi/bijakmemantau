@@ -558,6 +558,158 @@ const cards = [
                 </div>
             </div>
         </section>
+
+        <!-- Section List Card -->
+        <section class="max-w-6xl mx-auto px-6 py-8">
+            <!-- Judul -->
+            <div class="mb-4">
+                <h2 class="text-xl font-bold text-abu">RUU yang sedang ramai dibahas🔥</h2>
+            </div>
+
+            <!-- Card list scroll horizontal -->
+            <div class="flex gap-4 overflow-x-auto pb-4 scrollbar-hide">
+                <!-- Card 1 -->
+                <div
+                    class="flex-shrink-0 w-[290px] h-auto relative rounded-xl overflow-hidden flex flex-col"
+                >
+                    <!-- Background image -->
+                    <img
+                        src="/c7.avif"
+                        alt="bg"
+                        class="absolute inset-0 w-full h-full object-cover"
+                    />
+
+                    <!-- Overlay biar teks kontras -->
+                    <div class="absolute inset-0 bg-black/50"></div>
+
+                    <!-- Konten -->
+                    <div class="relative z-10 p-4 flex flex-col flex-1 text-white">
+                        <!-- Judul -->
+                        <h3 class="font-bold line-clamp-2 flex-1">RUU Hukum Acara Pidana</h3>
+
+                        <!-- Button (selalu di bawah, width sesuai konten) -->
+                        <div class="mt-8">
+                            <button
+                                class="bg-white text-gray-800 px-4 py-2 rounded-full text-sm font-semibold mt-auto self-start"
+                            >Baca sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div
+                    class="flex-shrink-0 w-[290px] h-auto relative rounded-xl overflow-hidden flex flex-col"
+                >
+                    <!-- Background image -->
+                    <img
+                        src="/c8.avif"
+                        alt="bg"
+                        class="absolute inset-0 w-full h-full object-cover"
+                    />
+
+                    <!-- Overlay biar teks kontras -->
+                    <div class="absolute inset-0 bg-black/50"></div>
+
+                    <!-- Konten -->
+                    <div class="relative z-10 p-4 flex flex-col flex-1 text-white">
+                        <!-- Judul -->
+                        <h3 class="font-bold line-clamp-2 flex-1">Paket RUU Politik</h3>
+
+                        <!-- Button (selalu di bawah, width sesuai konten) -->
+                        <div class="mt-8">
+                            <button
+                                class="bg-white text-gray-800 px-4 py-2 rounded-full text-sm font-semibold mt-auto self-start"
+                            >Baca sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div
+                    class="flex-shrink-0 w-[290px] h-auto relative rounded-xl overflow-hidden flex flex-col"
+                >
+                    <!-- Background image -->
+                    <img
+                        src="/c9.avif"
+                        alt="bg"
+                        class="absolute inset-0 w-full h-full object-cover"
+                    />
+
+                    <!-- Overlay biar teks kontras -->
+                    <div class="absolute inset-0 bg-black/50"></div>
+
+                    <!-- Konten -->
+                    <div class="relative z-10 p-4 flex flex-col flex-1 text-white">
+                        <!-- Judul -->
+                        <h3 class="font-bold line-clamp-2 flex-1">RUU Kepolisian Negara</h3>
+
+                        <!-- Button (selalu di bawah, width sesuai konten) -->
+                        <div class="mt-8">
+                            <button
+                                class="bg-white text-gray-800 px-4 py-2 rounded-full text-sm font-semibold mt-auto self-start"
+                            >Baca sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div
+                    class="flex-shrink-0 w-[290px] h-auto relative rounded-xl overflow-hidden flex flex-col"
+                >
+                    <!-- Background image -->
+                    <img
+                        src="/c10.avif"
+                        alt="bg"
+                        class="absolute inset-0 w-full h-full object-cover"
+                    />
+
+                    <!-- Overlay biar teks kontras -->
+                    <div class="absolute inset-0 bg-black/50"></div>
+
+                    <!-- Konten -->
+                    <div class="relative z-10 p-4 flex flex-col flex-1 text-white">
+                        <!-- Judul -->
+                        <h3
+                            class="font-bold line-clamp-2 flex-1"
+                        >RUU Energi Baru & Energi Terbarukan</h3>
+
+                        <!-- Button (selalu di bawah, width sesuai konten) -->
+                        <div class="mt-8">
+                            <button
+                                class="bg-white text-gray-800 px-4 py-2 rounded-full text-sm font-semibold mt-auto self-start"
+                            >Baca sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 5 -->
+                <div
+                    class="flex-shrink-0 w-[290px] h-auto relative rounded-xl overflow-hidden flex flex-col"
+                >
+                    <!-- Background image -->
+                    <img
+                        src="/c11.avif"
+                        alt="bg"
+                        class="absolute inset-0 w-full h-full object-cover"
+                    />
+
+                    <!-- Overlay biar teks kontras -->
+                    <div class="absolute inset-0 bg-black/50"></div>
+
+                    <!-- Konten -->
+                    <div class="relative z-10 p-4 flex flex-col flex-1 text-white">
+                        <!-- Judul -->
+                        <h3
+                            class="font-bold line-clamp-2 flex-1"
+                        >RUU Pengelolaan Perubahan Iklim</h3>
+
+                        <!-- Button (selalu di bawah, width sesuai konten) -->
+                        <div class="mt-8">
+                            <button
+                                class="bg-white text-gray-800 px-4 py-2 rounded-full text-sm font-semibold mt-auto self-start"
+                            >Baca sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
         <slot />
     </div>
 </template>
